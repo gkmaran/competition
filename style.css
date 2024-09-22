@@ -1,0 +1,149 @@
+body{
+    width: 100%;;
+    font-family: "Open Sans", sans-serif;
+}
+.content1{
+    width: 70%;
+    background-color: #f96699;
+    height: 500px;
+    margin: 35px auto;
+    border-radius: 10px;
+}
+.nano-wrap{
+    padding-top: 10rem;
+    text-align: center;
+}
+#heart{
+   color: white;
+}
+.nano-wrap p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.content2{
+    width: 70%;
+    background-color:#38cccc;
+    height: auto;
+    margin: 35px auto;
+    border-radius: 10px;
+}
+#about{
+    color: white;
+    margin-top: 20px;
+}
+.about-wrap{
+    padding-top: 10rem;
+    text-align: center;
+    width: 40%;
+}
+.about-wrap p{
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.container{
+    display: flex;
+}
+.about-text{
+    width: 50%;
+    color: white;
+    padding: 6%;
+}
+.about-text p{
+    font-size: large;
+    line-height: 40px;
+}
+span{
+    color: #7bf977;
+}
+.container3{
+    width: 100%;
+    height: auto;
+}
+.image-topic{
+    text-align: center;
+    margin-left: 50%;
+}
+.image-topic a{
+    text-decoration: none;
+    padding: 10px;
+    color: #38cccc;
+}
+#color{
+    color: #f96699;
+}
+.image-wrap{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    width: 55%;
+    margin: 30px auto;
+    gap: 20px;
+}
+.img{
+    border-radius: 1rem;
+}
+.content4{
+    background-color:#99cccc;
+    width: 55%;
+    height: auto;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 2%;
+}
+.details-wrap{
+    padding: 5%;
+    color: white;
+    display: inline-block;
+    width: 40%;
+}
+.details-wrap input{
+    background-color: #99cccc;
+    border: none;
+    border-bottom: solid 2px white;
+    padding-bottom : 10px ;
+}
+#message{
+    padding-bottom: 60px;
+}
+.address-wrap{
+    display: inline-block;
+    width: 30%;
+    color: white;
+}
+.contact{
+    display: inline-block;
+    color: white;
+    width: 20%;
+}
+#tel{
+    margin-top: 2rem;
+}
+#logo{
+    margin-top: 2rem;
+}
+@media (max-width:767px) {
+    .container{
+        display: inline-block;
+        width: 100%;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-wrap{
+        width: 100%;
+    }
+    .image-topic{
+        margin-left: auto;
+    }
+    .image-wrap{
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(6 , 1fr);
+    }
+    .content4{
+        display: block;
+    }
+}
+
+
